@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Calculator</title>
+    <link rel='stylesheet' href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>How much do pies cost?</h2>
+
+        <form> 
+            <div class="form-group"> 
+                <label for="price">Price</label>
+                <input type="text" name="price" value="30">
+            </div>
+
+            <div class="form-group"> 
+                <label for="quantity">Quantity
+                    <span class="quantity-label">1</span>
+                </label>
+                <input type="range" name="quantity" value="1" min="1" max="10" step="1">
+            </div>
+
+        </form>
+
+        <div class="total"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

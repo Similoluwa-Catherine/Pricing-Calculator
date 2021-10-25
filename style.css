@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: Azure;
+    padding: 50px 40px;
+}
+
+.form-group {
+    display: grid;
+    margin-top: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
+
+.total {
+    float : right;
+    font-size: 25px;
+}
+
+.quantity-label {
+    background-color: blue;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+.container {
+    margin: 70px 50px;
+}
+
+.total {
+    float: right;
+    margin-right: 120px;
+}
+
+
+
+
+}
+    
